@@ -11,7 +11,16 @@ body, html {
     margin-bottom: 0;
 }
 
-.caption {
+#footer {
+    background-color: #F54746;
+    font-family: "Open Sans", sans-serif;
+}
+
+.fa {
+    color: black;
+}
+
+/* .caption {
     position: absolute;
     left: 0;
     top: 50%;
@@ -26,7 +35,7 @@ body, html {
     padding: 18px;
     font-size: 25px;
     letter-spacing: 10px;
-}
+} */
 
 .parallax-1, .parallax-2, .parallax-3, .parallax-4 {
     background-attachment: fixed;
