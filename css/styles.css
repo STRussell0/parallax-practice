@@ -27,23 +27,6 @@ p {
     color: white;
 }
 
-/* .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-
-.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-} */
-
 .parallax-1, .parallax-2, .parallax-3, .parallax-4 {
     background-attachment: fixed;
     background-position: center;
