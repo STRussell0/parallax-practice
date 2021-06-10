@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=OpenSans&display=swap');
+
+body, html {
+    height: 100%;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.411);
+}
+
+h1 {
+    font-family: "Lobster";
+}
+
+#footer {
+    background-color: #F54746;
+    font-family: "Open Sans", sans-serif;
+}
+
+.fa {
+    color: black;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.parallax-1, .parallax-2, .parallax-3, .parallax-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .65;
+}
+
+.parallax-1 {
+    background-image: url(https://images.unsplash.com/photo-1612392166886-ee8475b03af2?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80);
+    height: 100%;
+}
+
+.parallax-2 {
+    background-image: url(https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80);
+    height: 100%;
+}
+
+.parallax-3 {
+    background-image: url(https://images.unsplash.com/photo-1613919113640-25732ec5e61f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    height: 100%;
+}
+
+.parallax-4 {
+    background-image: url(https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+    height: 100%;
+}
+
+/* Create new IDs for each parallax. Each parallax will be in its own DIV inbetween each section of text. Must include the following
+
+/* The image used */
+/* background-image: url("img_parallax.jpg"); */
+
+/* Full height */
+/* height: 100%; */
+
+/* Create the parallax scrolling effect */
+/* background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
